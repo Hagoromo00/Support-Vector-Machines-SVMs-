@@ -38,9 +38,6 @@ Y = df["good wine"]
 
 Y.value_counts()
 
-#visualize the count 
-sns.countplot(Y)
-plt.show()
 
 X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size = 0.2, random_state=42, stratify = Y)
 
